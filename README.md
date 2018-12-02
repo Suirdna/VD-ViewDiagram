@@ -1,2 +1,2 @@
-﻿# viewDiagram
+﻿# javascript-viewdiagram
  
