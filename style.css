@@ -1,0 +1,54 @@
+.view_Header{
+    width:100%;
+    height:100px;
+}
+
+.functionPanel{
+    width:350px;
+    height:55px;
+    margin:0px auto;
+}
+
+#logo_image{
+    width:209px;
+    height:48px;
+    background-image:url("./images/logo.png");
+    margin:0px auto;
+}
+
+#getPDBody{
+    padding:5px;
+}
+
+.button{
+    width:100px;
+    height:28px;
+    background-color:#152f4f;
+    border-radius:10px;
+    text-align:center;
+    font-family: Calibri;
+    font-weight:bold;
+    font-size:14px;
+    line-height:28px;
+    color:white;
+    float: right;
+}
+
+.button:hover{
+    width:100px;
+    height:28px;
+    background-color:#24456d;
+    border-radius:10px;
+    text-align:center;
+    font-family: Calibri;
+    font-weight:bold;
+    line-height:28px;
+    color:white;
+    cursor: pointer;
+}
+
+#view_Diagram{
+    width:100%;
+    height:85vh;
+    border:1px solid black;
+}

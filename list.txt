@@ -1,0 +1,14 @@
+<cfloop query = "object">
+    <cfset DATA[CurrentRow][0] = id/> 
+    <cfset DATA[CurrentRow][1] = servername/>
+    <cfset DATA[CurrentRow][2] = ipaddress/>
+    <cfset DATA[CurrentRow][3] = betriebssystem/>
+    <cfset DATA[CurrentRow][4] = kaufdate/>
+    <cfset DATA[CurrentRow][5] = serverfunktion/>
+    <cfset DATA[CurrentRow][6] = serverfunktion_fk/>
+    <cfset DATA[CurrentRow][7] = gast_von_id/>
+    <cfset DATA[CurrentRow][8] = haupt_ip/>
+    <cfset DATA[CurrentRow][9] = gaeste/>
+    <cfset DATA[CurrentRow][10] = virtuell/>
+    <csset DATA[CurrentRow][11] = projektbereich_fk/>
+</cfloop>
